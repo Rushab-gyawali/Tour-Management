@@ -51,7 +51,7 @@ export const deleteTour = async (req, res) => {
 //getSingle tour
 export const getSingleTour = async (req, res) => {
     const id = req.params.id
-    
+
     try {
         const tour = await Tour.findById(id);
         res.status(200).json({
@@ -66,8 +66,11 @@ export const getSingleTour = async (req, res) => {
 
 //getAll tour
 export const getAllTour = async (req, res) => {
+    //for pagination
+    const page = parseInt(req.query.page);
+    console.log(page);
     try {
-        const tourList = await Tour.find({});
+        const tourList = await Tour.find({}).skip(page * 8).limit(8);
         res.status(200).json({
             success: true, message: "All Tour List", data: tourList
         });

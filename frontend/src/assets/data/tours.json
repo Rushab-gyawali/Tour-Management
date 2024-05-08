@@ -128,5 +128,99 @@
 
     "photo": "/tour-images/tour-img09.jpg",
     "featured": false
+  },
+  {
+    "title": "Eiffel Tower Tour",
+    "city": "Paris",
+    "address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France",
+    "distance": 500,
+    "price": 150,
+    "maxGroupSize": 15,
+    "desc": "Experience the iconic Eiffel Tower up close with our guided tour.",
+    "reviews": [
+      {
+        "user": "Emily",
+        "rating": 4,
+        "comment": "The tour was fantastic! Our guide was knowledgeable and friendly."
+      },
+      {
+        "user": "Michael",
+        "rating": 5,
+        "comment": "Absolutely stunning views from the top! Highly recommend."
+      }
+    ],
+    "photo": "/tour-images/eiffel-tower.jpg",
+    "featured": true
+  },
+  {
+    "title": "Statue of Liberty Tour",
+    "city": "New York City",
+    "address": "Liberty Island, New York, NY 10004, United States",
+    "distance": 400,
+    "price": 120,
+    "maxGroupSize": 20,
+    "desc": "Discover the history and significance of the Statue of Liberty with our expert guides.",
+    "reviews": [
+      {
+        "user": "Sarah",
+        "rating": 5,
+        "comment": "An unforgettable experience! The guide was incredibly informative."
+      },
+      {
+        "user": "John",
+        "rating": 4,
+        "comment": "Seeing the Statue of Liberty up close was amazing!"
+      }
+    ],
+    "photo": "/tour-images/statue-of-liberty.jpg",
+    "featured": true
+  },
+  {
+    "title": "Colosseum Tour",
+    "city": "Rome",
+    "address": "Piazza del Colosseo, 1, 00184 Roma RM, Italy",
+    "distance": 250,
+    "price": 100,
+    "maxGroupSize": 15,
+    "desc": "Explore the ancient wonders of the Colosseum and learn about its fascinating history.",
+    "reviews": [],
+    "photo": "/tour-images/colosseum.jpg",
+    "featured": true
+  },
+  {
+    "title": "Great Wall of China Tour",
+    "city": "Beijing",
+    "address": "Badaling, Yanqing District, Beijing, China",
+    "distance": 800,
+    "price": 200,
+    "maxGroupSize": 25,
+    "desc": "Walk along one of the greatest wonders of the world and marvel at its grandeur.",
+    "reviews": [],
+    "photo": "/tour-images/great-wall.jpg",
+    "featured": true
+  },
+  {
+    "title": "Sydney Opera House Tour",
+    "city": "Sydney",
+    "address": "Bennelong Point, Sydney NSW 2000, Australia",
+    "distance": 150,
+    "price": 90,
+    "maxGroupSize": 12,
+    "desc": "Go behind the scenes of the iconic Sydney Opera House and discover its architectural marvels.",
+    "reviews": [],
+    "photo": "/tour-images/sydney-opera-house.jpg",
+    "featured": true
+  },
+  {
+    "title": "Taj Mahal Tour",
+    "city": "Agra",
+    "address": "Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001, India",
+    "distance": 300,
+    "price": 110,
+    "maxGroupSize": 18,
+    "desc": "Experience the splendor of the Taj Mahal, one of the most beautiful monuments in the world.",
+    "reviews": [],
+    "photo": "/tour-images/taj-mahal.jpg",
+    "featured": true
   }
 ]
