@@ -53,7 +53,7 @@ export const getSingleTour = async (req, res) => {
     const id = req.params.id
 
     try {
-        const tour = await Tour.findById(id);
+        const tour = await Tour.findById(id).populate('reviews');
         res.status(200).json({
             success: true, message: "Tour Detail", data: tour
         });
@@ -69,7 +69,7 @@ export const getAllTour = async (req, res) => {
     //for pagination
     const page = parseInt(req.query.page);
     try {
-        const tourList = await Tour.find({}).skip(page * 8).limit(8);
+        const tourList = await Tour.find({}).populate('reviews').skip(page * 8).limit(8);
         res.status(200).json({
             success: true, message: "All Tour List", data: tourList
         });
